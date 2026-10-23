@@ -1,0 +1,13 @@
+Text,Model,CV macro F1,CV std,Best params
+Normalised text,"LogReg, word 1-2 grams",0.7884,0.0297,{'clf__C': 100}
+Normalised text,"Linear SVM, word + char",0.7884,0.0363,{'clf__C': 1}
+Normalised text,"Linear SVM, char 1-4 grams",0.7746,0.0254,{'clf__C': 10}
+Normalised text,"LogReg, char 1-4 grams",0.7686,0.0329,{'clf__C': 100}
+Normalised text,"Naive Bayes, word 1-2 grams",0.6611,0.0147,{'clf__alpha': 0.01}
+Normalised text,Majority class,0.3543,0.0009,{}
+Raw text,"LogReg, char 1-4 grams",0.843,0.0083,{'clf__C': 100}
+Raw text,"Linear SVM, word + char",0.8421,0.0096,{'clf__C': 10}
+Raw text,"Linear SVM, char 1-4 grams",0.8373,0.0075,{'clf__C': 10}
+Raw text,"LogReg, word 1-2 grams",0.8017,0.0385,{'clf__C': 100}
+Raw text,"Naive Bayes, word 1-2 grams",0.7012,0.0265,{'clf__alpha': 0.01}
+Raw text,Majority class,0.3543,0.0009,{}

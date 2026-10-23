@@ -1,0 +1,13 @@
+{
+  "deployed_model": "LogReg, word 1-2 grams (normalised text)",
+  "test_accuracy": 0.729,
+  "test_macro_f1": 0.7174,
+  "test_roc_auc": 0.8056,
+  "raw_text_model": "LogReg, char 1-4 grams",
+  "raw_text_test_accuracy": 0.8664,
+  "raw_text_test_macro_f1": 0.8603,
+  "raw_text_test_roc_auc": 0.9131,
+  "one_character_rule_test_accuracy": 0.7366,
+  "urdu_letters_only_test_accuracy": 0.7137,
+  "earlier_bert_test_accuracy_reported": 0.851
+}
