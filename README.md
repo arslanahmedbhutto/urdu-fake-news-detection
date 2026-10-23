@@ -2,6 +2,10 @@
 
 Detects fake news in **Urdu** with TF-IDF features and linear models, and investigates **why** models score so well on this benchmark. A large part of the accuracy turns out to come from how the dataset was built rather than from the news content.
 
+**Live demo: [urdu-fake-news-detection-arslan.streamlit.app](https://urdu-fake-news-detection-arslan.streamlit.app/)**
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://urdu-fake-news-detection-arslan.streamlit.app/)
+
 ![Demo app](screenshots/app.png)
 
 ## Key findings
@@ -67,7 +71,13 @@ Fake articles lean on explanatory connectives and informal spellings. Real ones 
 
 ## Demo app
 
-`app.py` is a Streamlit app. Paste an Urdu article (right-to-left input, Nastaliq font) or load a random test article. It shows the prediction, the probability of being fake, the true label for test articles, and the words that pushed the prediction each way.
+`app.py` is a Streamlit app, **[live here](https://urdu-fake-news-detection-arslan.streamlit.app/)**. Paste an Urdu article (right-to-left input, Nastaliq font) or load a random test article. It shows the prediction, the probability of being fake, the true label for test articles, and the words that pushed the prediction each way.
+
+The live app classifying new Urdu news text that isn't part of the dataset:
+
+![Live app on new text](screenshots/live_app.png)
+
+To run it locally:
 
 ```bash
 pip install -r requirements.txt
